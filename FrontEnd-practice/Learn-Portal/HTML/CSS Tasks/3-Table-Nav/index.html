@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Nav & Data Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">My Portfolio</div>
+        <div class="menu-toggle">☰</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Project Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Donation App</td>
+                    <td>Utilising Google Maps API to create a platform connecting donors with food banks.</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Food Website</td>
+                    <td>Dynamic food delivery website built using Swiggy's live API for real-time menu and restaurant data.</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Movie Streaming Website</td>
+                    <td>Feature-rich streaming platform integrated with TMDB API and Google Firebase authentication.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <script>
+        document.querySelector(".menu-toggle").addEventListener("click", function() {
+            document.querySelector(".nav-links").classList.toggle("show");
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+body {
+    background-color: #e8f4f8;  /* Light blue background */
+    padding: 20px;
+}
+
+.navbar {
+    background: linear-gradient(to right, #2c3e50, #3498db);  /* Gradient navbar */
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+.nav-links li {
+    margin: 0 15px;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.nav-links a:hover {
+    color: #ffd700;  /* Golden yellow on hover */
+}
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background: #2c3e50;  /* Matching navbar gradient start color */
+        top: 60px;
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+    .nav-links.show {
+        display: flex;
+    }
+    .menu-toggle {
+        display: block;
+    }
+}
+.table-container {
+    margin-top: 20px;
+    overflow-x: auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #bdc3c7;  /* Lighter border color */
+    text-align: left;
+}
+th {
+    background: linear-gradient(to right, #2980b9, #3498db);  /* Gradient headers */
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f5f9fa;  /* Zebra striping */
+}
+tr:hover {
+    background-color: #e8f6ff;  /* Hover effect */
+}

@@ -1,4 +1,9 @@
 
+//create a web worker
+
+const worker = new Worker('worker.js');
+
+
 
 //Code 1 > 100 Paras 
 
