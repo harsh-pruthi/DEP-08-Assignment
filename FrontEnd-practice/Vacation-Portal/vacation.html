@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+    <header>
+        <div class="nav-bar">
+            <div class="nav-left">
+                <ul>
+                    <li>
+                        <img src="images/vacation.svg" class="nav-left-img" alt="logo">
+                    </li>
+                    <li class="items"><a href="index.html">Dashboard</a></li>
+                    <li class="items"><a href="vacation.html">Requests</a></li>
+                    <li class="items"><a href="">Balances</a></li>
+                    <li class="items"><a href="">Notifications</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <div class="nav-button-container">
+                <button class="btn-nav">
+                    <div class="b-pic">
+                        <img src="images/plus.svg" class="btn-a-img" alt="user">
+                    </div>
+                    <div class="b-text">
+                        Add Request
+                    </div>
+                </button>
+            </div>
+                <div class="question-container">
+                    <img src="images/question.svg" alt="" class="question">
+                </div>
+                <div class="profile-picture">
+                    <img src="images/1.jpg" alt="" class="profile-pic">
+                </div>
+                <div class="g-picture">
+                    <img src="images/gpic.svg" alt="" class="g-pic">
+                </div>
+            </div>
+        </div>
+
+        <div class="add-bar">
+            <button class="add-bar-button">
+                <div class="add-bar-text" style="color: #009ECC">Personal</div>
+            </button>
+            <button class="add-bar-button">
+                <div class="add-bar-text">Action Required</div>
+            </button>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="main-container">
+            <div class="container-title">
+                My Requests
+            </div>
+            <div class="requests-container">
+                    <div class="request-buttons">
+                        <button class="filter-btn active">All requests 
+
+                            <span class="filter-btn-text">10</span>
+
+                        </button>
+                        <button class="filter-btn">Regular vacation <span>3</span></button>
+                        <button class="filter-btn">Sick leave <span>3</span></button>
+                        <button class="filter-btn">Exceptional leave <span>4</span></button>
+                    </div>
+
+
+                    <div class="request-table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Category</th>
+                                    <th>Reason</th>
+                                    <th>Status</th>
+                                    <th>Period</th>
+                                    <th>Approver</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="sub-content" style="display: flex; gap: 4px;">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-eZiCFTEFwkF2N83k0zo8YYUC7t9XOOE6BQ&s" class="category-icon" height="20px" width="20px"> Sick leave</td>
+                                    <td>Regular sick leave</td>
+                                    <td><span class="status closed">Closed</span></td>
+                                    <td>Dec 30, 2024 - Dec 31, 2024 (2d)</td>
+                                    <td>
+                                        <div class="approver" style="display: flex; gap: 4px;">
+                                            <img src="https://www.svgrepo.com/show/311063/person.svg" class="approver-img"  height="20px" width="20px">
+                                            <span>Shanthikumar Chilumula</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                   
+               </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>

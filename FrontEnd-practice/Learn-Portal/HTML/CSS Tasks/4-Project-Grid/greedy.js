@@ -1,4 +1,4 @@
-orders = ["Large Margherita", "Small Margherita", "Small Margherita", "Large Pepperoni", "Small Pepperoni"]
+orders = ["Large Margherita", "Small Margherita", "Small Margherita", "Large Pepperoni", "Small Pepperoni", "Small A"]
 
 let small = [], large = []
 for (i of orders){

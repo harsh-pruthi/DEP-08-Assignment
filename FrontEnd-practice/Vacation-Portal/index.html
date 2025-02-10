@@ -18,8 +18,8 @@
                     <li>
                         <img src="images/vacation.svg" class="nav-left-img" alt="logo">
                     </li>
-                    <li class="items"><a href="">Dashboard</a></li>
-                    <li class="items"><a href="">Requests</a></li>
+                    <li class="items"><a href="index.html">Dashboard</a></li>
+                    <li class="items"><a href="vacation.html">Requests</a></li>
                     <li class="items"><a href="">Balances</a></li>
                     <li class="items"><a href="">Notifications</a></li>
                 </ul>
@@ -75,7 +75,7 @@
                                 </div>
                                 <div class="l1-img">
                                     <img src="images/circle.svg" alt=""><p style="position:absolute;">
-                                        <span font-size: 50px;>15d</span> of 15
+                                        <span style="font-weight: bolder;">15d</span> of 15
                                     </p>
                                     
                                 </div>
@@ -113,9 +113,53 @@
                         <p class="level-1-text">My Requests</p>
                         <p class="level-1-text" style="color: #009ECC">Go to all Requests</p>
                     </div>
-                    <div class="level-2-cards">
-                       <img src="images/book.svg" alt="">
-                       <p>There are no registered requests</p>
+                    <div class="main-container">
+                        <div class="requests-container">
+                                <div class="request-buttons">
+                                    <button class="filter-btn active">All requests 
+            
+                                        <span class="filter-btn-text">10</span>
+            
+                                    </button>
+                                    <button class="filter-btn">Regular vacation <span>3</span></button>
+                                    <button class="filter-btn">Sick leave <span>3</span></button>
+                                    <button class="filter-btn">Exceptional leave <span>4</span></button>
+                                </div>
+            
+            
+                                <div class="request-table">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Category</th>
+                                                <th>Reason</th>
+                                                <th>Status</th>
+                                                <th>Period</th>
+                                                <th>Approver</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <div class="sub-content" style="display: flex; gap: 4px;">
+                                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-eZiCFTEFwkF2N83k0zo8YYUC7t9XOOE6BQ&s" class="category-icon" height="20px" width="20px"> Sick leave</td>
+                                                <td>Regular sick leave</td>
+                                            </div>
+                                                <td><span class="status closed">Closed</span></td>
+                                                <td>Dec 30, 2024 - Dec 31, 2024 (2d)</td>
+                                                <td>
+                                                    <div class="approver" style="display: flex; gap: 4px;">
+                                                        <img src="https://www.svgrepo.com/show/311063/person.svg" class="approver-img"  height="20px" width="20px">
+                                                        <span>Shanthikumar Chilumula</span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                               
+                           </div>
+                        </div>
                     </div>
                     
 
