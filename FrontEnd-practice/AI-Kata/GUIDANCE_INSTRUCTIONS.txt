@@ -1,0 +1,36 @@
+GitCI/CD - 20Jan
+JS, bytes part 2 - 3-14/2. 25/2	
+TS, SDLC Design Parrern bytes p3, p4, react - 28/2
+28/2-14/3 Redux, unit testing 
+
+
+Create Book API CRUD by 4 pm 
+
+Local Storage Create, Read, Update, Deleted 
+
+Name, author, category, price
+
+OOPs Side Little 
+
+Book class with multiple names 
+Book and student class communicate 
+
+Design Patterns/Principles 
+
+DRY 
+dry. desgn patterns
+
+SDLC, Design Patterns read about it 
+Common 
+Singleton, Event, Singleton 
+SOLID 
+
+HTML CSS JS 
+
+Focus on Non Functional Requirements : Security, Design Patterns, Principles, OOPs 
+Why should you use LightHouse/how to make page effect 
+SOLID, DRY, DESIGN PATTERN 
+OUT of 24 patterns, we use 
+Observer, singleton, event emitter 
+
+
