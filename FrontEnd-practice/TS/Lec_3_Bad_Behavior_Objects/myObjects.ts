@@ -6,9 +6,12 @@ const User = {
 
 // Use Case of the object -> Passing and returing from functions 
 
-function createUser({name:string, isPaid: boolean}){
-
-
+function createUser1({name, isPaid, email}:{name:string, isPaid: boolean, email: string}):User{
+    return {
+        name:"Harsh", 
+        email:"lco@mail.com", 
+        isActive: false
+    }
 }
 
 // createUser({
@@ -22,7 +25,7 @@ let newUser = {
     isPaid: false, 
     email: "h@h.com"
 };
-createUser(newUser);
+createUser1(newUser);
 
 //Return an object with the two defined Properties 
 function createCourse():{name: string, price:number}{
