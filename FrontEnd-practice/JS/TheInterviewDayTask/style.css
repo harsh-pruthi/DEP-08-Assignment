@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+.parent{
+    height: 500px;
+    width: 500px;
+    background-color: blue;
+    display: flex;
+    flex-direction: flex-column;
+    justify-content: end;
+    align-items: end;
+
+}
+
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: sandybrown;
+}
